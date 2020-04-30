@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="sub.master.cs" Inherits="DIPS.sub" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+
+
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color: #000022;">
+    <!-- <header> -->
+
+    <nav class="navbar navbar-fixed-top navu">
+        <a class="navbar-brand">
+            <img src="support/images/DIPS.png" style="margin-top: -15px; width: 85px;">
+        </a>
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyNavbarUpside">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+            <div class="collapse navbar-collapse" id="MyNavbarUpside">
+                <ul class="navbar-nav navbar-right">
+                    <li class="topnav"><a href="logedout.aspx" class="glyphicon glyphicon-user icon"><b>LogOut</b></a>
+                    </li>
+                </ul>
+                <div class="footer" style="color: white;">
+                    <p class="footer-text">
+                        <h4 style="text-align: center;"><b>eDocs</b></h4>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
