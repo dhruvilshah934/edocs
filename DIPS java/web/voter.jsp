@@ -1,7 +1,7 @@
 <%-- 
     Document   : profile
     Created on : Mar 22, 2020, 9:45:43 PM
-    Author     : DHRUVIL
+    Author     : KENEEL
 --%>
 <%@ page import ="java.sql.*" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

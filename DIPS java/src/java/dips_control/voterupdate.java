@@ -20,7 +20,7 @@ import javax.servlet.http.HttpSession;
 
 /**
  *
- * @author DHRUVIL
+ * @author KENEEL
  */
 public class voterupdate extends HttpServlet {
 
